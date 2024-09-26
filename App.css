@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  background: url('./Pictures/dentist.jpg') no-repeat;
+  background-size : cover;
+  background-position: center;
+  margin-top: 400px;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  padding: 20px 100px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.Logo{
+  font-size: 32px;
+  color:#fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a{
+  position: relative;
+  font-size: 18px;
+  color:aqua;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar a ::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height:2px;
+  background: #fff;
+  transition: .3s;
+}
+
+.navbar a:hover{
+  width: 100%;
+  color: aquamarine;
+}
+
+{/* Login*/}
+
+.Wrapper{
+  position: relative;
+  width: 420px;
+  height: 450px;
+  background: url(./Pictures/Dent2.jpg) ;
+  background-size: contain;
+  border-radius: 10px;
+  color: #fff;
+  transition: height .2s ease;
+}
+
+.Wrapper .form-box{
+  width: 100%;
+  padding: 40px;
+
+}
+
+.title{
+  font-size: 36px;
+  padding-top:50px ;
+  text-align: center;
+  font-weight: 900;
+  color: antiquewhite;
+}
+
+.form .input-box{
+  position: relative;
+  width: 100px;
+  height: 50px;
+  margin: 30px 0;
+  background: aqua;
+}
+
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border:none;
+  outline: none;
+  border: 2px solid rgba(255,255, 255, .1);
+  border-radius: 4px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+  color: #fff;
+}
+
+.input-box .icon{
+  position: relative;
+  
+  right: 20px;
+  top: 50%;
+  translate: 0 -50%;
+  font-size: 16px;
+}
+
+form .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 4px;
+}
+
+.remember-forgot link {
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot link:hover{
+  text-decoration: underline;
+}
+
+.button {
+  width: 100%;
+  height: 45px;
+  background: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight:1000 ;
+
+}
+.register-link{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+  color: aqua;
+}
+.P{
+  color: aquamarine;
+  font-weight: 600;
+}
+
+
+{/* registration*/}
+
+.Registration-box{
+  position: relative;
+  width: 420px;
+  height: 450px;
+  border-radius: 10px;
+  color: #fff;
+  background: url(./Pictures/logodent.jpg);
+  background-size: contain;
+}
+
+
+
+
+
